@@ -168,6 +168,7 @@ header {
     padding: 10px 0;
     position: fixed;
     background-color: gray;
+    z-index: inherit;
 }
 
 header nav,
@@ -199,7 +200,7 @@ nav a:hover {
 
 .section1 {
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 0;
     text-align: center;
     margin: 0 0 100px 0;
 }
@@ -213,14 +214,14 @@ nav a:hover {
 
 .section1 div {
     font-size: 75px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 button {
     padding: 10px 40px;
-    margin: 0px;
+    margin: 0;
     background-color: gray;
     border: 1px black solid;
     font-weight: bold;
@@ -234,15 +235,15 @@ button:hover {
 }
 
 .section1 h1 {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .section2 {
     display: inline-block;
     text-align: left;
     max-width: 49%;
-    margin: 0px 5px 25px 0px;
+    margin: 0 5px 25px 0;
     width: 100%;
     vertical-align: middle;
 }
@@ -251,7 +252,7 @@ button:hover {
     display: inline-block;
     text-align: left;
     max-width: 31%;
-    margin: 25px 0px 25px 0px;
+    margin: 25px 0 25px 0;
     width: 100%;
     vertical-align: middle;
 }
@@ -272,7 +273,7 @@ button:hover {
 }
 
 footer {
-    margin: 35px 0px 60px 0px;
+    margin: 35px 0 60px 0;
 }
 
 footer p {
